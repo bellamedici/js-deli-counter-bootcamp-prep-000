@@ -1,4 +1,4 @@
-function takeANumber(deliLine, name) {
+  function takeANumber(deliLine, name) {
   var length = deliLine.push(name);
   return `Welcome, ${name}. You are number ${length} in line.`;
 }
